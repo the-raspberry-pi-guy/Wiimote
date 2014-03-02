@@ -10,8 +10,13 @@ I'll leave it to the tutorial to do the explaining!
 Enjoy!
 
 Matt
+
 The Raspberry Pi Guy
+
 www.youtube.com/theraspberrypiguy
+
 www.theraspberrypiguy.com
+
 theraspberrypiguy@gmail.com
+
 @RaspberryPiGuy1
