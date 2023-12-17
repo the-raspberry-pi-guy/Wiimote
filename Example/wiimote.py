@@ -27,10 +27,10 @@ time.sleep(3)
 for i in range(16):
   wii.led = i
   time.sleep(0.5)
-wii.rpt_mode = cwiid.RPT_BTN
+wii.rpt_mode = cwiid.RPT_NUNCHUCK
 
 while True:
-
+  
   buttons = wii.state['buttons']
 
   # Detects whether + and - are held down and if they are it quits the program
@@ -90,4 +90,5 @@ while True:
 
   if (buttons & cwiid.BTN_PLUS):
     print('Plus Button pressed')
+    print(wii.state)
     time.sleep(button_delay)
