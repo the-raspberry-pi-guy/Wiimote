@@ -26,8 +26,8 @@ char ReplyBuffer[] = "acknowledged\r\n";        // a string to send back
 WiFiUDP Udp;
 
 void WiFi_Init() {
-  ssid_Router     =   "Stoltzfus-2G";    //Modify according to your router name
-  password_Router =   "Farhills";    //Modify according to your router password
+  ssid_Router     =   "";    //Modify according to your router name
+  password_Router =   "";    //Modify according to your router password
   ssid_AP         =   "Sunshine";    //ESP32 turns on an AP and calls it Sunshine
   password_AP     =   "Sunshine";    //Set your AP password for ESP32 to Sunshine
   frame_size      =    FRAMESIZE_CIF;//400*296
