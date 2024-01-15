@@ -20,9 +20,6 @@ red.value(1)
 green.value(0)
 blue.value(1)
 
-ssid = 'Stoltzfus-2G' #Stoltzfus-2G
-password = 'Farhills' #Farhills
-
 def connect():
     #Connect to WLAN
     wlan = network.WLAN(network.STA_IF)
